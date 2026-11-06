@@ -15,6 +15,9 @@ int main(){
 		else if(reponse > random_number && reponse <= 100){
 			printf("C'est moins !\n");
 		}
+		else if(reponse > 100 || reponse < 1){
+			printf("La réponse est entre 1 et 100 !\n");
+		}
 		else{
 			printf("C'est gagné !\n");
 		}
